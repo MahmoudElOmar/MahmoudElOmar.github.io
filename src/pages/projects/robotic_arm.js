@@ -4,7 +4,7 @@ import { LeftSection } from "../../components/Hero/HeroStyles";
 import { Container } from "../../layout/LayoutStyles";
 import { Layout } from "../../layout/Layout";
 
-const Ecommerce = () =>  {
+const RoboticArm = () =>  {
     return (
         <Layout>
             <Container>
@@ -15,7 +15,7 @@ const Ecommerce = () =>  {
                     </SectionTitle>
                     </LeftSection>
                     <SectionText>
-                        This is a page detailing my ecommerce website project.
+                        This is a page detailing my robotic arm simulation.
                     </SectionText>
                 </Section>
             </Container>
@@ -23,4 +23,4 @@ const Ecommerce = () =>  {
     );
 }
 
-export default Ecommerce;
+export default RoboticArm;

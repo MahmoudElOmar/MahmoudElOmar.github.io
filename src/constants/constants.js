@@ -48,3 +48,38 @@ export const TimeLineData = [
   { year: 2024, text: 'Became a millionaire', },
   { year: 2025, text: 'Founded the Citadel', }
 ];
+
+export const project_list = [
+  {
+    title: "E-commerce",
+    paragraph: "I created an e-commerce website",
+    link: "/projects/ecommerce",
+  },
+  {
+    title: "Private Chatting Application",
+    paragraph: "I created a private chatting application",
+    link: "/projects/private_chatting",
+
+  },
+  {
+    title: "Robotic Arm Simulation",
+    paragraph: "I simulated a UR10 robotic arm in Gazebo.",
+    link: "/projects/robotic_arm",
+
+  },
+  {
+    title: "Restaurant Website",
+    paragraph: "I created a restaurant website.",
+    link: "/projects/restaurant",
+  },
+  {
+    title: "Nostr Client",
+    paragraph: "I created a Nostr client.",
+    link: "/projects/nostr_client",
+  },
+  {
+    title: "Bitcoin Wallet",
+    paragraph: "I created a Bitcoin wallet.",
+    link: "/projects/bitcoin_wallet",
+  }
+];

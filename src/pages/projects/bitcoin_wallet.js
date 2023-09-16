@@ -4,18 +4,18 @@ import { LeftSection } from "../../components/Hero/HeroStyles";
 import { Container } from "../../layout/LayoutStyles";
 import { Layout } from "../../layout/Layout";
 
-const Ecommerce = () =>  {
+const BitcoinWallet = () =>  {
     return (
         <Layout>
             <Container>
                 <Section>
                     <LeftSection>
                     <SectionTitle main center>
-                        E-Commerce Project
+                        Bitcoin Wallet Project
                     </SectionTitle>
                     </LeftSection>
                     <SectionText>
-                        This is a page detailing my ecommerce website project.
+                        This is a page detailing my Bitcoin wallet§ website project.
                     </SectionText>
                 </Section>
             </Container>
@@ -23,4 +23,4 @@ const Ecommerce = () =>  {
     );
 }
 
-export default Ecommerce;
+export default BitcoinWallet;
