@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 import Link from 'next/link';
 
@@ -10,6 +10,7 @@ const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider/>
     <SectionTitle main>Projects</SectionTitle>
+    <SectionText>Here are my top 4 projects</SectionText>
     <GridContainer>
       {projects.map(({title, description, image, tags, source, visit, id}) => (
         <Link href={visit}>

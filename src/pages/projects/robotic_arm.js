@@ -11,7 +11,7 @@ const RoboticArm = () =>  {
                 <Section>
                     <LeftSection>
                     <SectionTitle main center>
-                        E-Commerce Project
+                        Robotic Arm Simulation
                     </SectionTitle>
                     </LeftSection>
                     <SectionText>

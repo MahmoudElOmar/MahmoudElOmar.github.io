@@ -35,7 +35,13 @@ export const Div2 = styled.div`
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
+    margin: 0rem 5rem
+    background-color: orange;
   }
+  @media only screen and (orientation: landscape) and (hover: none) and (pointer: coarse) {
+    grid-area: 1 / 2 / 6 / 4;
+    margin: 2rem 0rem 0rem 13rem
+}
 `;
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
@@ -61,6 +67,9 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 1rem;
   }
 `;
 
