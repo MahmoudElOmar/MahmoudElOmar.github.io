@@ -7,9 +7,10 @@ import Link from 'next/link';
 
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section id="projects">
     <SectionDivider/>
-    <SectionTitle main>Projects</SectionTitle>
+    <br/>
+    <SectionTitle>Projects</SectionTitle>
     <SectionText>Here are my top 4 projects</SectionText>
     <GridContainer>
       {projects.map(({title, description, image, tags, source, visit, id}) => (

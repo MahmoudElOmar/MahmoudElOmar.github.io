@@ -33,15 +33,28 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
-    margin: 0rem 5rem
-    background-color: orange;
+  @media screen and (max-width: 320px) {
+    grid-area: 2 / 2 / 2 / 4;
+    position: relative; /* Enable relative positioning */
+    left: 7rem; /* Offset from the left */
   }
-  @media only screen and (orientation: landscape) and (hover: none) and (pointer: coarse) {
-    grid-area: 1 / 2 / 6 / 4;
-    margin: 2rem 0rem 0rem 13rem
-}
+  @media screen and (max-width: 425px) and  (min-width: 360px) {
+    grid-area: 2 / 2 / 5 / 5;
+    position: relative; /* Enable relative positioning */
+    left: 1rem; /* Offset from the left */
+  }
+  @media screen and (max-width: 768px) and (min-width: 430px) {
+    grid-area: 1 / 3 / 4 / 4;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0rem
+  }
+  @media screen and (max-width: 896px) and (min-width: 768px) {
+    grid-area: 2 / 2 / 5 / 5;
+    display: flex;
+    justify-content: space-around;
+    margin: -4rem 5rem;
+  }
 `;
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
@@ -51,6 +64,10 @@ export const Div3 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
+  }
+  @media screen and (max-width: 320px) {
+    grid-area: 1 / 5 / 2 / 6;
+    // align-items: center;
   }
 `;
 
@@ -64,6 +81,9 @@ export const NavLink = styled.a`
     color: #fff;
     opacity: 1;
     cursor: pointer;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 1.5rem;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
