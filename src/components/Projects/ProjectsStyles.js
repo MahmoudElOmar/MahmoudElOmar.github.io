@@ -20,7 +20,11 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
+@media screen and (max-width: 420px) and  (min-width: 360px) {
+  grid-area: 2 / 2 / 5 / 5;
+  position: relative; /* Enable relative positioning */
+  left: 1rem; /* Offset from the left */
+}
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
