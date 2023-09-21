@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
+    title: 'Bitcoin Wallet',
     description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: '/images/1.png',
+    image: '/images/bitcoin.png',
     tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: "https://google.com",
+    source: "/projects/bitcoin_wallet",
+    visit: "/projects/bitcoin_wallet",
     id: 0,
   },
   {
@@ -18,7 +18,7 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'WebRTC App',
+    title: 'Restaurant Website',
     description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
     image: '/images/3.jpg',
     tags: ['React', 'WebRTC'],
@@ -27,7 +27,7 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Unichat',
+    title: 'Private Chatting App',
     description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
@@ -81,5 +81,32 @@ export const project_list = [
     title: "Bitcoin Wallet",
     paragraph: "I created a Bitcoin wallet.",
     link: "/projects/bitcoin_wallet",
+  }
+];
+
+export const technologies_list = [
+  {
+    title: ".Net 6",
+    paragraph: "I created an e-commerce website",
+  },
+  {
+    title: "ReactJS",
+    paragraph: "I created a private chatting application",
+  },
+  {
+    title: "Robotic Arm Simulation",
+    paragraph: "I simulated a UR10 robotic arm in Gazebo.",
+  },
+  {
+    title: "Restaurant Website",
+    paragraph: "I created a restaurant website.",
+  },
+  {
+    title: "Nostr Client",
+    paragraph: "I created a Nostr client.",
+  },
+  {
+    title: "Bitcoin Wallet",
+    paragraph: "I created a Bitcoin wallet.",
   }
 ];

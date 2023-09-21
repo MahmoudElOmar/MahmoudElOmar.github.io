@@ -3,7 +3,6 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import Link from 'next/link';
 
 
 const Projects = () => (
@@ -14,7 +13,7 @@ const Projects = () => (
     <SectionText>Here are my top 4 projects</SectionText>
     <GridContainer>
       {projects.map(({title, description, image, tags, source, visit, id}) => (
-        <Link href={visit}>
+        <a href={visit} style={{ display: "flex", alignItems: "center", color: "white"}}>
           <BlogCard key={id}>
             <Img src={image}/>
             <TitleContent>
@@ -36,7 +35,7 @@ const Projects = () => (
               </TagList>
             </div>
           </BlogCard>
-        </Link>
+        </a>
       ))}
     </GridContainer>
     <br/>

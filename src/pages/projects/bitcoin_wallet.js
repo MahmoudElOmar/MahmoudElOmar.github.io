@@ -15,7 +15,7 @@ const BitcoinWallet = () =>  {
                     </SectionTitle>
                     </LeftSection>
                     <SectionText>
-                        This is a page detailing my Bitcoin wallet§ website project.
+                        This is a page detailing my Bitcoin wallet project.
                     </SectionText>
                 </Section>
             </Container>
