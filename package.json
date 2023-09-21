@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "https://quis-ut-deus.github.io/",
   "scripts": {
-    "dev": "next dev -p 80",
-    "build": "next build",
-    "start": "npm run build && next start -p 80",
+    "dev": "next dev",
+    "build": "next build && next export -o build",
+    "start": "npm run build && next start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "clean": "rm -rf node_modules",
