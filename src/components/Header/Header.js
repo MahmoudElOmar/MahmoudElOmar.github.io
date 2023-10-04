@@ -1,15 +1,12 @@
-import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
-
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, HeaderLogo } from './HeaderStyles';
 
 const Header = () =>  (
   <Container>
     <Div1>
         <a href="/" style={{ display: "flex", alignItems: "center", color: "white", marginBottom: 20}}>
-          <DiCssdeck size="3rem"/>
+          <HeaderLogo src="/images/noun-phoenix-85574.svg"/>
           <Span>Portfolio</Span>
         </a>
     </Div1>

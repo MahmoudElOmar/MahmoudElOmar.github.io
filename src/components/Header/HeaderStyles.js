@@ -140,7 +140,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 `;
 
 
-// Social Icons 
+// Social Icons
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
@@ -151,6 +151,11 @@ border-radius: 50px;
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    
+
   }
+`
+export const HeaderLogo = styled.img`
+  height: 35px;
+  width: 35px;
+  margin-right: 1rem;
 `

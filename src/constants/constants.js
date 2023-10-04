@@ -6,7 +6,7 @@ export const projects = [
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: "/projects/bitcoin_wallet",
     visit: "/projects/bitcoin_wallet",
-    id: 0,
+    key: 0,
   },
   {
     title: 'E-Commerce',
@@ -15,7 +15,7 @@ export const projects = [
     tags: ['React', 'JavaScript'],
     source: '/',
     visit: '/projects/ecommerce',
-    id: 1,
+    key: 1,
   },
   {
     title: 'Restaurant Website',
@@ -24,7 +24,7 @@ export const projects = [
     tags: ['React', 'WebRTC'],
     source: '/projects/restaurant',
     visit: '/projects/restaurant',
-    id: 2,
+    key: 2,
   },
   {
     title: 'Private Chatting App',
@@ -33,7 +33,7 @@ export const projects = [
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: '/projects/private_chatting',
     visit: '/projects/private_chatting',
-    id: 3,
+    key: 3,
   },
 ];
 
