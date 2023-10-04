@@ -12,9 +12,9 @@ const Projects = () => (
     <SectionTitle>Projects</SectionTitle>
     <SectionText>Here are my top 4 projects</SectionText>
     <GridContainer>
-      {projects.map(({title, description, image, tags, source, visit, id}) => (
+      {projects.map(({title, description, image, tags, source, visit, key}) => (
         <a href={visit} style={{ display: "flex", alignItems: "center", color: "white"}}>
-          <BlogCard key={id}>
+          <BlogCard key={key}>
             <Img src={image}/>
             <TitleContent>
               <HeaderThree title>
