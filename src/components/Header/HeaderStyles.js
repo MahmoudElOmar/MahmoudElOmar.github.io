@@ -33,27 +33,21 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  @media screen and (max-width: 800px) {
+    margin-left: 10rem;
+    margin-top: 1rem
+  }
+  @media screen and (max-width: 490px) {
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: 7rem;
+  }
   @media screen and (max-width: 320px) {
-    grid-area: 2 / 2 / 2 / 4;
-    position: relative; /* Enable relative positioning */
-    left: 7rem; /* Offset from the left */
-  }
-  @media screen and (max-width: 425px) and  (min-width: 360px) {
-    grid-area: 2 / 2 / 5 / 5;
-    position: relative; /* Enable relative positioning */
-    left: 1rem; /* Offset from the left */
-  }
-  @media screen and (max-width: 768px) and (min-width: 430px) {
-    grid-area: 1 / 3 / 4 / 4;
-    display: flex;
-    justify-content: space-around;
-    margin: 2rem 0rem
-  }
-  @media screen and (max-width: 896px) and (min-width: 768px) {
-    grid-area: 2 / 2 / 5 / 5;
-    display: flex;
-    justify-content: space-around;
-    margin: -4rem 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14rem;
+    margin-top: 7rem;
   }
 `;
 export const Div3 = styled.div`
