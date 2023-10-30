@@ -4,7 +4,6 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
-
 const Projects = () => (
   <Section id="projects">
     <SectionDivider/>
@@ -41,6 +40,5 @@ const Projects = () => (
     <br/>
   </Section>
 );
-
 
 export default Projects;
